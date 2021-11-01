@@ -1,0 +1,10 @@
+# No npm mobules
+node_modules
+# No beanstalk config
+.elasticbeanstalk
+# No built files
+# dist
+Dockerfile
+.dockerignore
+.git
+.gitignore
