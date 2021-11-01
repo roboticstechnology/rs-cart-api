@@ -1,9 +1,15 @@
 # No npm mobules
+#the folder node_modules was added to the exception, so as not to drag it over the network and so that #all dependencies are relevant relative to the package.json file
 node_modules
 # No beanstalk config
+# the folder .elasticbeanstalk contains configuration settings for the EB service and itis # not needed to run the application
 .elasticbeanstalk
 # No built files
+# the dist folder contains the build of the application for testing
+# when starting an application in a container, the build is created anew
 dist
+# these files .elasticbeanstalk contains configuration settings for docker and git.
+# they are not needed to run the application
 Dockerfile
 .dockerignore
 .git
